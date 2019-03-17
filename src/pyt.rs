@@ -6,7 +6,7 @@ pub fn py_engine(n: u64) {
     let mut count: u64 = 1;
 
     while count < n/2 {
-        if a*((a/2)-count) % (((a*2)/2)-count) == 0 {
+        if a*((a/2)-count) % (a-count) == 0 {
             x = count;
             y = a*((a/2)-count) / (a-count);
             z = n - (x+y);
