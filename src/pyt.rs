@@ -8,7 +8,7 @@ pub fn py_engine(n: u64) {
     while count < n/2 {
         if a*((a/2)-count) % (((a*2)/2)-count) == 0 {
             x = count;
-            y = a*((a/2)-count) / (((a*2)/2)-count);
+            y = a*((a/2)-count) / (a-count);
             z = n - (x+y);
 
             println!("{:?}", (x, y, z));
