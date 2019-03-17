@@ -1,0 +1,7 @@
+[package]
+name = "pythagorean_triples"
+version = "0.1.0"
+authors = ["Higalgo <rhc91310@gmail.com>"]
+edition = "2018"
+
+[dependencies]
